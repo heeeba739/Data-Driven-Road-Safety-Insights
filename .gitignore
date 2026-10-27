@@ -1,0 +1,10 @@
+# Exclure les gros fichiers CSV du dataset
+Dataset/*.csv
+!Dataset/monthly_counts_full.csv
+
+# Fichiers système et caches Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+.DS_Store
